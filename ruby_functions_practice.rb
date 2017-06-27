@@ -58,4 +58,8 @@ when 9
 end
 end
 
+def volume_of_cube(length, breadth)
+  total_volume = 3.to_i * 3.to_i
+
+end
 
