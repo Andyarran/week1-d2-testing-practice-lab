@@ -47,7 +47,15 @@ when 9
 end
 end
 
-def substring()
-
+def number_to_short_month_name(shorten)
+case shorten
+when 1
+  "Jan"
+when 3
+  "Mar"
+when 9
+  "Sep"
 end
+end
+
 
