@@ -1,40 +1,53 @@
-def test_return_10()
+def return_10()
+  10
 
 end
 
-def test_add()
+def add(a, b)
+  return a + b
+end
+
+def subtract(a, b)
+  return a - b
 
 end
 
-def test_subtract()
+def multiply(a, b)
+  return a * b
 
 end
 
-def test_multiply()
+def divide(a, b)
+  return a / b
 
 end
 
-def test_divide()
+def length_of_string(string)
+  return string.length
 
 end
 
-def test_length_of_string()
-
+def join_string(string1, string2)
+return string1 + string2
 end
 
-def test_join_string()
-
+def add_string_as_number(x, y)
+return x.to_i + y.to_i
 end
 
-def test_add_string_as_number()
-
+def number_to_full_month_name(number)
+  
+case number
+when 1 
+  "January"
+when 3
+  "March"
+when 9
+  "September"
+end
 end
 
-def test_number_to_full_name()
-
-end
-
-def test_substring()
+def substring()
 
 end
 
